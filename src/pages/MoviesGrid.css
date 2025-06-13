@@ -1,0 +1,24 @@
+.movies-container {
+align-items: center;
+display: flex;
+overflow-x: auto;
+gap: 15px;
+height: 50vh;
+padding: 10px 15px;
+scroll-behavior: smooth;
+}
+.title {
+  color: #ffff;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.movies-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.movies-container::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 4px;
+}
