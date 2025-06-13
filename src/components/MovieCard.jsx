@@ -83,7 +83,7 @@ const MovieCard = ({ movie }) => {
   {/* Info que sempre aparece (titulo e botão) */}
   <div className="card-info">
     <h2>{movie.title}</h2>
-    <Link to={`/movie/${movie.id}`} className="details-button">Detalhes</Link>
+    <Link to={`/movie/${movie.id}`} className="details-button">Saiba Mais</Link>
   </div>
 </div>
 
